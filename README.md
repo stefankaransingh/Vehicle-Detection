@@ -9,6 +9,15 @@ The steps of this project are the following:
 * Run the pipeline on a video stream and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
 * Estimate a bounding box for vehicles detected.
 
+The outcome of the project is as follows:
+
+#### Project Video
+![Project Video](output_images/project_video.gif)
+
+
+#### Challenge Video
+![Challenge Video](output_images/challenge_video.gif)
+
 ---
 
 ## Data Extraction
