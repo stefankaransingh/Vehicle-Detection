@@ -291,7 +291,7 @@ car_features = extract_features(cars, cspace=color_space,spatial_size=spatial_si
                         hog_channel=hog_channel)
 
 notcar_features = extract_features(notcars, cspace=color_space,spatial_size=spatial_size,
-                        hist_bins=hist_bins, hist_range=(0, 256), orient=orient,
+                        hist_bins=hist_bins, hist_range=hist_range, orient=orient,
                         pix_per_cell=pix_per_cell, cell_per_block=cell_per_block,
                         hog_channel=hog_channel)
 t2 = time.time()
